@@ -1,0 +1,68 @@
+/* Reset some default styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the table to allow scrolling */
+.table-container {
+    width: 90%;
+    margin: 20px auto;
+    overflow-x: auto; /* Allows horizontal scrolling if needed */
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+thead {
+    background-color: #4CAF50; /* Darker green background */
+    color: white;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Row hover effect */
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Action link styling */
+.action-link {
+    text-decoration: none;
+    color: #4CAF50;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.action-link:hover {
+    text-decoration: underline;
+}
+
+/* Optional: Adjust table header and data row padding and text color */
+th {
+    padding: 12px 15px;
+    background-color: #4CAF50; /* Header background color */
+    color: white; /* Header text color */
+}
+
+td {
+    padding: 12px 15px;
+}
+
+/* Optional: Add a border radius for a softer look */
+table {
+    border-radius: 5px;
+    overflow: hidden; /* Ensures corners are rounded */
+}

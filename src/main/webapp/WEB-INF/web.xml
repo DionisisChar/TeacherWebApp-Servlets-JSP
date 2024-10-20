@@ -1,0 +1,58 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>LoginController</servlet-name>
+  	<display-name>LoginController</display-name>
+  	<description></description>
+  	<servlet-class>gr.aueb.elearn.dionChar.teacherapp.controller.LoginController</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>TeacherDeleteController</servlet-name>
+  	<display-name>TeacherDeleteController</display-name>
+  	<description></description>
+  	<servlet-class>gr.aueb.elearn.dionChar.teacherapp.controller.TeacherDeleteController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>TeacherInsertController</servlet-name>
+  	<display-name>TeacherInsertController</display-name>
+  	<description></description>
+  	<servlet-class>gr.aueb.elearn.dionChar.teacherapp.controller.TeacherInsertController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>TeacherUpdateController</servlet-name>
+  	<display-name>TeacherUpdateController</display-name>
+  	<description></description>
+  	<servlet-class>gr.aueb.elearn.dionChar.teacherapp.controller.TeacherUpdateController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LoginController</servlet-name>
+  	<url-pattern>/LoginController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>TeacherDeleteController</servlet-name>
+  	<url-pattern>/TeacherDeleteController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>TeacherInsertController</servlet-name>
+  	<url-pattern>/TeacherInsertController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>TeacherUpdateController</servlet-name>
+  	<url-pattern>/TeacherUpdateController</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+</web-app>

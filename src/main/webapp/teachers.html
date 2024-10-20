@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teachers Search</title>
+    <script src="/TeachersWebApp/static/js/jquery.min.js"></script>
+    <script src="/TeachersWebApp/static/js/teachers.js"></script>
+    <link rel="stylesheet" href="/TeachersWebApp/static/css/teachersmenu.css">
+
+    <style>
+        table, th, td {
+            margin: 0 auto;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="center">
+        
+        <div class="search-wrapper">
+	        <div class="bot-gap">
+	            <span class="title">Teachers Search</span>
+	        </div>
+	        <div class="bot-gap">
+	            <form>
+	                <input id="searchInput" type="text" class="search rounded" placeholder="Insert teacher's lastname" autofocus/>
+	                <br><br>
+	                <button class="search-btn rounded color-btn" type="button" onclick="fetchTeachersFromJSON()">Search</button>
+	            </form>
+	        </div>
+        </div>
+     
+
+        <h1>List of Teachers</h1>
+        <table class="teachers-list">
+
+        </table>
+    </div>
+</body>
+</html> 

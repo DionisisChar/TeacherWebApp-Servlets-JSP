@@ -1,0 +1,89 @@
+body {
+	background: #4CAF50;
+	margin: 0;
+	background-image:
+		url('/TeachersWebApp/static/img/teachersMenuBackground.jpg');
+}
+
+.center {
+	text-align: center;
+}
+
+.search-wrapper, .insert-wrapper {
+	width: 300px;
+	margin: 20px auto;
+	border: 1px solid black;
+	padding: 20px;
+	background-color: rgba(116, 211, 162, 0.8);
+}
+
+.bot-gap {
+	margin-bottom: 20px;
+}
+
+.title {
+	color: #fff;
+	font-size: 28px;
+	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+input[type=text].search {
+	width: 200px;
+	height: 50px;
+	background-image: url('/TeachersWebApp/static/img/search.png');
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 45px 45px;
+	padding-left: 45px;
+}
+
+.rounded {
+	border-radius: 18px;
+	border: 1.5px solid black;
+}
+
+.color-btn {
+	background-color: #B5D6C5;
+}
+
+/* Remove focus border added by browser */
+input.search:focus {
+	outline: none;
+}
+
+.search-btn {
+	width: 200px;
+	height: 50px;
+	font-size: 17px;
+	cursor: pointer;
+}
+
+.insert {
+	padding-left: 15px;
+	width: 200px;
+	height: 30px;
+}
+
+/*.wrapper-insert-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #B5D6C5;
+	width: 200px;
+	height: 50px;
+	border: ipx solid black;
+	
+}
+
+.insert-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.insert-link {	
+	cursor: default;	
+	font-size: 18px;
+	text-decoration: none;
+	color: black;
+}*/
