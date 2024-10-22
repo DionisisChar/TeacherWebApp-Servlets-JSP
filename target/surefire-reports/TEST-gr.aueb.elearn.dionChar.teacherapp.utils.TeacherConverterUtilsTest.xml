@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="gr.aueb.elearn.dionChar.teacherapp.utils.TeacherConverterUtilsTest" time="0.001" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1253"/>
+    <property name="java.class.path" value="C:\Eclipse-WorkSpace-EE_Edition\JavaFullStackWebProgramming2\TeachersWebApp\target\test-classes;C:\Eclipse-WorkSpace-EE_Edition\JavaFullStackWebProgramming2\TeachersWebApp\target\classes;C:\Users\Διονύσης-PC\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.3\junit-jupiter-5.9.3.jar;C:\Users\Διονύσης-PC\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\Διονύσης-PC\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Διονύσης-PC\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\Διονύσης-PC\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Διονύσης-PC\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar;C:\Users\Διονύσης-PC\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\Διονύσης-PC\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;C:\Users\Διονύσης-PC\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Διονύσης-PC\.m2\repository\com\mysql\mysql-connector-j\9.0.0\mysql-connector-j-9.0.0.jar;C:\Users\Διονύσης-PC\.m2\repository\com\google\protobuf\protobuf-java\4.26.1\protobuf-java-4.26.1.jar;C:\Users\Διονύσης-PC\.m2\repository\org\apache\taglibs\taglibs-standard-spec\1.2.5\taglibs-standard-spec-1.2.5.jar;C:\Users\Διονύσης-PC\.m2\repository\org\apache\taglibs\taglibs-standard-impl\1.2.5\taglibs-standard-impl-1.2.5.jar;C:\Users\Διονύσης-PC\.m2\repository\org\apache\taglibs\taglibs-standard-jstlel\1.2.5\taglibs-standard-jstlel-1.2.5.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Europe/Athens"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GR"/>
+    <property name="sun.boot.library.path" value="C:\Users\Διονύσης-PC\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.2.v20240802-1626\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\-PC~1\AppData\Local\Temp\surefire17119726198368248550\surefirebooter11141885761583102970.jar C:\Users\Διονύσης-PC\AppData\Local\Temp\surefire17119726198368248550 2024-10-22T10-08-47_084-jvmRun1 surefire8233404548541461390tmp surefire_016685828473468779706tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Eclipse-WorkSpace-EE_Edition\JavaFullStackWebProgramming2\TeachersWebApp\target\test-classes;C:\Eclipse-WorkSpace-EE_Edition\JavaFullStackWebProgramming2\TeachersWebApp\target\classes;C:\Users\Διονύσης-PC\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.3\junit-jupiter-5.9.3.jar;C:\Users\Διονύσης-PC\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\Διονύσης-PC\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Διονύσης-PC\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\Διονύσης-PC\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Διονύσης-PC\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar;C:\Users\Διονύσης-PC\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\Διονύσης-PC\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;C:\Users\Διονύσης-PC\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\Διονύσης-PC\.m2\repository\com\mysql\mysql-connector-j\9.0.0\mysql-connector-j-9.0.0.jar;C:\Users\Διονύσης-PC\.m2\repository\com\google\protobuf\protobuf-java\4.26.1\protobuf-java-4.26.1.jar;C:\Users\Διονύσης-PC\.m2\repository\org\apache\taglibs\taglibs-standard-spec\1.2.5\taglibs-standard-spec-1.2.5.jar;C:\Users\Διονύσης-PC\.m2\repository\org\apache\taglibs\taglibs-standard-impl\1.2.5\taglibs-standard-impl-1.2.5.jar;C:\Users\Διονύσης-PC\.m2\repository\org\apache\taglibs\taglibs-standard-jstlel\1.2.5\taglibs-standard-jstlel-1.2.5.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Διονύσης-PC"/>
+    <property name="user.language" value="el"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Users\Διονύσης-PC\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.2.v20240802-1626\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Eclipse-WorkSpace-EE_Edition\JavaFullStackWebProgramming2\TeachersWebApp"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\-PC~1\AppData\Local\Temp\surefire17119726198368248550\surefirebooter11141885761583102970.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="22.0.2+9"/>
+    <property name="user.name" value="Διονύσης-PC"/>
+    <property name="stdout.encoding" value="Cp1253"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-22.0.2+9"/>
+    <property name="localRepository" value="C:\Users\Διονύσης-PC\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\-PC~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="22.0.2"/>
+    <property name="user.dir" value="C:\Eclipse-WorkSpace-EE_Edition\JavaFullStackWebProgramming2\TeachersWebApp"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1253"/>
+    <property name="java.library.path" value="C:\Users\Διονύσης-PC\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.2.v20240802-1626\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/Διονύσης-PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.2.v20240802-1626/jre/bin/server;C:/Users/Διονύσης-PC/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.2.v20240802-1626/jre/bin;C:\Java\jdk-17.0.4.1\bin;C:\Users\Διονύσης-PC\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Διονύσης-PC\AppData\Local\Programs\Python\Python312\;C:\Users\Διονύσης-PC\AppData\Local\Microsoft\WindowsApps;C:\Users\Διονύσης-PC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Διονύσης-PC\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="stderr.encoding" value="Cp1253"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="22.0.2+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="testConvertToModel_ValidDTO_ShouldReturnATeacherModel" classname="gr.aueb.elearn.dionChar.teacherapp.utils.TeacherConverterUtilsTest" time="0"/>
+  <testcase name="testConvertToDTO_ValidModel_ShouldReturnATeacherDTO" classname="gr.aueb.elearn.dionChar.teacherapp.utils.TeacherConverterUtilsTest" time="0"/>
+  <testcase name="testConvertToDTO_NullModel_ShouldReturnNullTeacherDTO" classname="gr.aueb.elearn.dionChar.teacherapp.utils.TeacherConverterUtilsTest" time="0"/>
+  <testcase name="testConvertToModel_NullDTO_ShouldReturnNullTeacherModel" classname="gr.aueb.elearn.dionChar.teacherapp.utils.TeacherConverterUtilsTest" time="0"/>
+</testsuite>

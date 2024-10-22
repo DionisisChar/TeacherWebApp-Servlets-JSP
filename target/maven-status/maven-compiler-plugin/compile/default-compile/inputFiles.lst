@@ -1,6 +1,8 @@
 C:\Eclipse-WorkSpace-EE_Edition\JavaFullStackWebProgramming2\TeachersWebApp\src\main\java\gr\aueb\elearn\dionChar\teacherapp\dao\ITeacherDAO.java
 C:\Eclipse-WorkSpace-EE_Edition\JavaFullStackWebProgramming2\TeachersWebApp\src\main\java\gr\aueb\elearn\dionChar\teacherapp\dto\TeacherDTO.java
+C:\Eclipse-WorkSpace-EE_Edition\JavaFullStackWebProgramming2\TeachersWebApp\src\main\java\gr\aueb\elearn\dionChar\teacherapp\utils\ValidationUtils.java
 C:\Eclipse-WorkSpace-EE_Edition\JavaFullStackWebProgramming2\TeachersWebApp\src\main\java\gr\aueb\elearn\dionChar\teacherapp\controller\TeacherSearchJSONController.java
+C:\Eclipse-WorkSpace-EE_Edition\JavaFullStackWebProgramming2\TeachersWebApp\src\main\java\gr\aueb\elearn\dionChar\teacherapp\utils\TeacherConverterUtils.java
 C:\Eclipse-WorkSpace-EE_Edition\JavaFullStackWebProgramming2\TeachersWebApp\src\main\java\gr\aueb\elearn\dionChar\teacherapp\controller\LoginController.java
 C:\Eclipse-WorkSpace-EE_Edition\JavaFullStackWebProgramming2\TeachersWebApp\src\main\java\gr\aueb\elearn\dionChar\teacherapp\model\Teacher.java
 C:\Eclipse-WorkSpace-EE_Edition\JavaFullStackWebProgramming2\TeachersWebApp\src\main\java\gr\aueb\elearn\dionChar\teacherapp\controller\TeacherUpdateController.java

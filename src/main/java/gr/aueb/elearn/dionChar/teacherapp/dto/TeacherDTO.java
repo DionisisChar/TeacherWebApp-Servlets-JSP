@@ -22,8 +22,7 @@ public class TeacherDTO {
 	private String firstName;
 	private String lastName;
 
-	public TeacherDTO() {
-	}
+	public TeacherDTO() {}
 
 	/**
 	 * Constructor that accepts an id, first name, and last name for creating a new
@@ -39,7 +38,6 @@ public class TeacherDTO {
 	 *                                  exceed 40 characters.
 	 */
 	public TeacherDTO(int id, String firstName, String lastName) {
-		super();
 		this.id = id;
 		setFirstName(firstName);
 		setLastName(lastName);

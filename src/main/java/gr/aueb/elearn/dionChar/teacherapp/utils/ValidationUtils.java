@@ -40,7 +40,7 @@ public class ValidationUtils {
 	 */
 	public static void checkSize(String value, int maxSize, String fieldName) {
 		if (value.length() > maxSize) {
-			throw new IllegalArgumentException(fieldName + " cannot exceed  " + maxSize + " characters");
+			throw new IllegalArgumentException(fieldName + " cannot exceed " + maxSize + " characters");
 		}
 	}
 
